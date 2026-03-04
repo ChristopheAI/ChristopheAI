@@ -20,11 +20,9 @@ I build software and automation that removes repetitive work and improves operat
 
 ### Public Repositories
 - [mlcoating-voorraad](https://github.com/ChristopheAI/mlcoating-voorraad): active powder coating inventory app
-
-### In Progress (Planned Public Repos)
-- `ai-automation-workflows`: reusable production-safe automation patterns
-- `proxmox-homelab`: infrastructure setup, operations notes, and monitoring stack
-- `christophevh.dev`: portfolio site and project case studies
+- [ai-automation-workflows](https://github.com/ChristopheAI/ai-automation-workflows): reusable production-safe automation patterns
+- [proxmox-homelab](https://github.com/ChristopheAI/proxmox-homelab): infrastructure setup, operations notes, and monitoring stack
+- [christophevh.dev](https://github.com/ChristopheAI/christophevh.dev): portfolio site and project case studies
 
 ## Current Focus
 
