@@ -1,0 +1,64 @@
+name: Daily Heartbeat
+
+on:
+  schedule:
+    - cron: "15 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update daily heartbeat
+        run: |
+          set -euo pipefail
+          date_iso="$(date -u +'%Y-%m-%d')"
+          ts="$(date -u +'%Y-%m-%d %H:%M UTC')"
+
+          mkdir -p activity
+          file="activity/daily-heartbeat.md"
+
+          if [ ! -f "$file" ]; then
+            cat > "$file" <<'DOC'
+          # Daily GitHub Heartbeat
+
+          This file is updated automatically once per day to keep a consistent contribution rhythm.
+
+          ## Log
+          DOC
+          fi
+
+          if ! grep -q "^- ${date_iso} |" "$file"; then
+            echo "- ${date_iso} | heartbeat at ${ts}" >> "$file"
+          fi
+
+          # Keep file readable
+          awk '
+            NR<=5 {print; next}
+            {lines[++count]=$0}
+            END {
+              start = (count > 120) ? count - 119 : 1
+              for (i = start; i <= count; i++) print lines[i]
+            }
+          ' "$file" > "$file.tmp"
+          mv "$file.tmp" "$file"
+
+      - name: Commit changes
+        run: |
+          set -euo pipefail
+          if git diff --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add activity/daily-heartbeat.md
+          git commit -m "chore: daily heartbeat"
+          git push
