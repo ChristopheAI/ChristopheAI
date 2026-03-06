@@ -1,43 +1,19 @@
-# Christophe Van Hoof
+## Hey there 👋
 
-**IT Professional -> Software Engineer**  
-Python | AI Automation | Linux Infrastructure
+I’m Christophe, a systems-minded developer with deep real-world IT experience, building practical software and automation that solves operational problems.
 
-I build software and automation that removes repetitive work and improves operational reliability.
+I don’t build for hype. I build for reliability, clarity, and outcomes.
 
-## What I Build
+Along the way:
+- 2008–2024 hands-on IT experience across support, systems, and client environments
+- Built and ran my own IT business (50+ SME clients)
+- Active Proxmox homelab since 2025 (LXC/VM workloads, monitoring, runbooks)
+- Building with Python, Node.js, APIs, automation workflows, and PostgreSQL
+- Focused on production-minded development and maintainable systems
 
-- **Business automation tools:** Python workflows, API integrations, report generation
-- **Infrastructure projects:** Linux services, Proxmox homelab, monitoring and backup practices
-- **Product-driven apps:** practical SaaS features for real operational teams
+Current focus:
+- Backend and automation engineering
+- Infrastructure-aware application development
+- Shipping tools that save real time for real teams
 
-## Proof Of Work
-
-### Client Automation: BAVAST Rapport Generator (Private)
-- Automated report-generation flow for recurring business processes
-- Focused on reliability, maintainability, and safe client-data handling
-- Repository is private to protect client IP and data context
-
-### Public Repositories
-- [mlcoating-voorraad](https://github.com/ChristopheAI/mlcoating-voorraad): active powder coating inventory app
-- [ai-automation-workflows](https://github.com/ChristopheAI/ai-automation-workflows): reusable production-safe automation patterns
-- [proxmox-homelab](https://github.com/ChristopheAI/proxmox-homelab): active (since 2025) infrastructure lab with operations runbooks and monitoring
-- [christophevh.dev](https://github.com/ChristopheAI/christophevh.dev): portfolio site and project case studies
-
-## Current Focus
-
-- Shipping automation scripts that save meaningful team time
-- Converting prototypes into reusable, documented tooling
-- Expanding infra operations depth with reproducible homelab runbooks
-
-## Tech
-
-`Python` `JavaScript` `Linux` `Proxmox` `APIs` `Automation` `Monitoring`
-
-## Contact
-
-- Antwerp, Belgium
-- Website: christophevh.dev
-- GitHub: https://github.com/ChristopheAI
-
-If you are hiring for software engineering or automation-focused roles, feel free to reach out.
+If you’re hiring for a Developer role (backend/full-stack/automation), let’s connect.
