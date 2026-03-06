@@ -17,3 +17,5 @@ Current focus:
 - Shipping tools that save real time for real teams
 
 If you’re hiring for a Developer role (backend/full-stack/automation), let’s connect.
+
+<!-- profile-refresh: 2026-03-06T09:00:00Z -->
