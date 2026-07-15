@@ -1,21 +1,32 @@
-## Hey there 👋
+## Christophe Van Hoof
 
-I’m Christophe, a systems-minded developer with deep real-world IT experience, building practical software and automation that solves operational problems.
+**AI & software engineer** — I build software with **agentic coding agents** (Claude Code, Codex): they write the code, I set direction and review until it's ready for production.
 
-I don’t build for hype. I build for reliability, clarity, and outcomes.
+Portfolio: **[vastpakt.be](https://vastpakt.be)**
 
-Along the way:
-- 2008–2024 hands-on IT experience across support, systems, and client environments
-- Built and ran my own IT business (50+ SME clients)
-- Active Proxmox homelab since 2025 (LXC/VM workloads, monitoring, runbooks)
-- Building with Python, Node.js, APIs, automation workflows, and PostgreSQL
-- Focused on production-minded development and maintainable systems
+### How I work
+- Not AI autocomplete in a sidebar — **agents that build the codebase**
+- Multiple agents when needed; I keep the direction
+- Review until CI, tests, and production readiness check out — "done" is not vibes
 
-Current focus:
-- Backend and automation engineering
-- Infrastructure-aware application development
-- Shipping tools that save real time for real teams
+### Live work
+| Project | What | Try it |
+|---|---|---|
+| **Voorraadapp** (poedercoating) | Stock in/out, audit log, daily use on the floor — 135 lines, 1.8t powder | [Demo](https://app-production-32db.up.railway.app) · [repo](https://github.com/ChristopheAI/mlcoating-voorraad) |
+| **Rapportgenerator** | Transcript → Word report for a property expert | [Demo](https://plaatsbeschrijving-app-demo-production.up.railway.app) |
+| **GTM / prospectie** | Signals → score → prepared outreach | [GTM demo](https://gtm-engine-demo-production.up.railway.app) · [Prospectie](https://app-production-5489.up.railway.app) |
+| **Portfolio site** | Cases + how I work | [vastpakt.be](https://vastpakt.be) · [repo](https://github.com/ChristopheAI/vastpakt) |
 
-If you’re hiring for a Developer role (backend/full-stack/automation), let’s connect.
+Client delivery work stays private; demos use fictional data only.
 
-<!-- profile-refresh: 2026-03-06T09:00:00Z -->
+### Background
+- 2008–2024 hands-on IT (Cisco enterprise support, own IT firm with 50+ SME clients, field engineering)
+- 2024–2025 B2B business development
+- Homelab: Proxmox, runbooks, monitoring ([proxmox-homelab](https://github.com/ChristopheAI/proxmox-homelab))
+
+### Contact
+- **Web:** [vastpakt.be](https://vastpakt.be)
+- **Mail:** christophe@vastpakt.be
+- **LinkedIn:** [christophewantstoconnect](https://www.linkedin.com/in/christophewantstoconnect)
+
+<!-- profile-refresh: 2026-07-15 -->
