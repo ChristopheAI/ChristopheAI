@@ -16,6 +16,7 @@ Portfolio: **[vastpakt.be](https://vastpakt.be)**
 | **Voorraadapp** (poedercoating) | Stock in/out, audit log — daily use in production (private codebase) | [Public demo](https://app-production-32db.up.railway.app) |
 | **Rapportgenerator** | Transcript → Word report for a property expert | [Demo](https://plaatsbeschrijving-app-demo-production.up.railway.app) |
 | **GTM / prospectie** | Signals → score → prepared outreach | [GTM demo](https://gtm-engine-demo-production.up.railway.app) · [Prospectie](https://app-production-5489.up.railway.app) |
+| **Blood values dashboard** | Personal Laravel app: lab PDF → reviewed biomarkers, trends | [repo](https://github.com/ChristopheAI/blood-values-dashboard) |
 | **Homelab** | Proxmox: apps + ops runbooks (public-safe docs) | [proxmox-homelab](https://github.com/ChristopheAI/proxmox-homelab) |
 
 Client production systems stay private. Demos use fictional data only.
