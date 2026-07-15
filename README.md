@@ -12,21 +12,22 @@ Portfolio: **[vastpakt.be](https://vastpakt.be)**
 ### Live work
 | Project | What | Try it |
 |---|---|---|
-| **Voorraadapp** (poedercoating) | Stock in/out, audit log, daily use on the floor — 135 lines, 1.8t powder | [Demo](https://app-production-32db.up.railway.app) · [repo](https://github.com/ChristopheAI/mlcoating-voorraad) |
+| **Portfolio** | Cases + how I work | [vastpakt.be](https://vastpakt.be) · [repo](https://github.com/ChristopheAI/vastpakt) |
+| **Voorraadapp** (poedercoating) | Stock in/out, audit log — daily use in production (private codebase) | [Public demo](https://app-production-32db.up.railway.app) |
 | **Rapportgenerator** | Transcript → Word report for a property expert | [Demo](https://plaatsbeschrijving-app-demo-production.up.railway.app) |
 | **GTM / prospectie** | Signals → score → prepared outreach | [GTM demo](https://gtm-engine-demo-production.up.railway.app) · [Prospectie](https://app-production-5489.up.railway.app) |
-| **Portfolio site** | Cases + how I work | [vastpakt.be](https://vastpakt.be) · [repo](https://github.com/ChristopheAI/vastpakt) |
+| **Homelab** | Proxmox: apps + ops runbooks (public-safe docs) | [proxmox-homelab](https://github.com/ChristopheAI/proxmox-homelab) |
 
-Client delivery work stays private; demos use fictional data only.
+Client production systems stay private. Demos use fictional data only.
 
 ### Background
 - 2008–2024 hands-on IT (Cisco enterprise support, own IT firm with 50+ SME clients, field engineering)
 - 2024–2025 B2B business development
-- Homelab: Proxmox, runbooks, monitoring ([proxmox-homelab](https://github.com/ChristopheAI/proxmox-homelab))
+- Homelab: Proxmox application ops ([proxmox-homelab](https://github.com/ChristopheAI/proxmox-homelab))
 
 ### Contact
 - **Web:** [vastpakt.be](https://vastpakt.be)
 - **Mail:** christophe@vastpakt.be
 - **LinkedIn:** [christophewantstoconnect](https://www.linkedin.com/in/christophewantstoconnect)
 
-<!-- profile-refresh: 2026-07-15 -->
+<!-- profile-refresh: 2026-07-15-C -->
